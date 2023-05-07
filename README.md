@@ -33,6 +33,6 @@ spring.datasource.password=postgrespw
 ```
 启动后发现报错信息如下
 
-![image-20230219125537002](C:\Users\85303\AppData\Roaming\Typora\typora-user-images\image-20230219125537002.png)
+![image-20230219125537002](https://hwl-blog.oss-cn-beijing.aliyuncs.com/image/202302192032310.png)
 
 查看具体的包之后发现确实是没有这个类，但是从打印出来的不知道具体是哪里在加载这个类，去 issue 里面查找也没有找到原因。暂时使用 MyBatis 吧，反正 Plus 我也只使用 BaseMapper。
