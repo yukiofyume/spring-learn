@@ -12,7 +12,7 @@
         <module>java-base</module>
         <module>common</module>
         <module>spring-easyexcel</module>
-        <module>spring-jpa</module>
+        <module>java-utils</module>
     </modules>
 
     <properties>
