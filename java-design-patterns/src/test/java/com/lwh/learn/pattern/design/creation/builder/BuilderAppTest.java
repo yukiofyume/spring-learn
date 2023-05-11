@@ -1,10 +1,7 @@
 package com.lwh.learn.pattern.design.creation.builder;
 
-import com.lwh.learn.pattern.design.creation.factory.method.Weapon;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * @author lwh
@@ -13,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
  * @describe --
  */
 @Slf4j
-class AppTest {
+class BuilderAppTest {
 
     @Test
     void builderTest() {

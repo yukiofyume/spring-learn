@@ -6,5 +6,5 @@ package com.lwh.learn.pattern.design.creation.builder;
  * @date 2023-05-10 18:18:54
  * @describe --
  */
-public class App {
+public class BuilderApp {
 }
