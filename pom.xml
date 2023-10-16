@@ -17,6 +17,7 @@
         <module>spring-jpa</module>
         <module>spring-openfeign</module>
         <module>spring-http-log</module>
+        <module>spring-rabbitmq</module>
     </modules>
 
     <properties>
