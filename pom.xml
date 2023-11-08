@@ -18,17 +18,21 @@
         <module>spring-openfeign</module>
         <module>spring-http-log</module>
         <module>spring-rabbitmq</module>
+        <module>spring-javacv</module>
+        <module>spring-websocket</module>
+        <module>spring-security-demo</module>
     </modules>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <springboot.version>3.0.2</springboot.version>
+        <springboot.version>3.1.5</springboot.version>
         <spring.cloud.version>2022.0.3</spring.cloud.version>
         <okhttp.version>4.10.0</okhttp.version>
         <feign.okhttp.version>12.3</feign.okhttp.version>
         <common.lang3.version>3.13.0</common.lang3.version>
+        <javacv.version>1.5.9</javacv.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -146,7 +150,11 @@
                 <artifactId>commons-lang3</artifactId>
                 <version>${common.lang3.version}</version>
             </dependency>
-
+            <dependency>
+                <groupId>org.bytedeco</groupId>
+                <artifactId>javacv-platform</artifactId>
+                <version>${javacv.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>
