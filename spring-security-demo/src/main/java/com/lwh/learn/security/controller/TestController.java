@@ -1,4 +1,4 @@
-package com.dodo.security.controller;
+package com.lwh.learn.security.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

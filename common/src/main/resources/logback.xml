@@ -73,9 +73,12 @@
 
 
     <!-- 指定com.demo包下的日志打印级别为DEBUG，但是由于没有引用appender，所以该logger不会打印日志信息，日志信息向上传递 -->
-    <logger name="com.lwh.learn" level="DEBUG">
+<!--    <logger name="com.lwh" level="DEBUG">-->
+<!--        <appender-ref ref="STDOUT"/>-->
+<!--    </logger>-->
+    <root level="DEBUG">
         <appender-ref ref="STDOUT"/>
-    </logger>
+    </root>
     <!-- 这里的logger根据需要自己灵活配置 ，我这里只是给出一个demo-->
 <!--    <root level="DEBUG">-->
 <!--        <appender-ref ref="STDOUT"/>-->
