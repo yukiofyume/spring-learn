@@ -75,15 +75,36 @@ public class HttpClientUtils {
         }
     }
 
+    /**
+     * get 请求
+     *
+     * @param url 请求url
+     * @return json
+     */
     public static String get(String url) {
         return get(url, null, null);
     }
 
+    /**
+     * get 请求
+     *
+     * @param url    请求url
+     * @param params 请求参数
+     * @return json
+     */
     public static String get(String url, Map<String, Object> params) {
-        return get(url, null, params);
+        return get(url, params, null);
     }
 
-    public static String get(String url, Map<String, Object> headers, Map<String, Object> params) {
+    /**
+     * get 请求
+     *
+     * @param url     请求url
+     * @param params  请求参数
+     * @param headers 请求头
+     * @return response
+     */
+    public static String get(String url, Map<String, Object> params, Map<String, Object> headers) {
         HttpGet httpGet = new HttpGet(url);
         if (Objects.nonNull(headers) && headers.size() > 0) {
             headers.forEach(httpGet::addHeader);
