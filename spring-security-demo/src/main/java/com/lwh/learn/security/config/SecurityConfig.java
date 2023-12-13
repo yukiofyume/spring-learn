@@ -31,8 +31,8 @@ import java.io.PrintWriter;
  * @date 2023-11-07 23:55:17
  * @describe --
  */
-@EnableWebSecurity
-@Configuration
+//@EnableWebSecurity
+//@Configuration
 public class SecurityConfig {
 
     @Autowired

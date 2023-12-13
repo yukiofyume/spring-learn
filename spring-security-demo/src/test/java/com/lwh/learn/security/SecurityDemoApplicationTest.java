@@ -58,7 +58,7 @@ class SecurityDemoApplicationTest {
 
 
     public static void main(String[] args) {
-        String s = "amF2YWJveToxNzAwNzUxODM5MTUwOlNIQTI1Njo4OWIxZWY2Yzk0MjQ2YTViNWMxMDQyMjVjNzA1ZGM0MmFjNjFlMzVkMjRlZGZjODYwZGUyZWQ5NDA1Yjg5NDQ1";
+        String s ="cWVzZU0yT2lPNlo3Y2l2cGRrR1dUUSUzRCUzRDp5S3hqVEFpS1JBJTJCZGUzTlcxeUFjR1ElM0QlM0Q";
         String s1 = new String(Base64.decodeBase64(s));
         System.out.println(s1);
     }

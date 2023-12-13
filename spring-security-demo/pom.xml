@@ -51,6 +51,10 @@
             </exclusions>
         </dependency>
         <dependency>
+            <groupId>com.github.penggle</groupId>
+            <artifactId>kaptcha</artifactId>
+        </dependency>
+        <dependency>
             <groupId>com.lwh.learn</groupId>
             <artifactId>common</artifactId>
             <version>${version}</version>

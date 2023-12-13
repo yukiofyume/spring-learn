@@ -21,6 +21,7 @@
         <module>spring-javacv</module>
         <module>spring-websocket</module>
         <module>spring-security-demo</module>
+        <module>apache-httpclient5</module>
     </modules>
 
     <properties>
@@ -34,6 +35,8 @@
         <common.lang3.version>3.13.0</common.lang3.version>
         <javacv.version>1.5.9</javacv.version>
         <mysql.version>8.0.29</mysql.version>
+        <kaptcha.version>2.3.2</kaptcha.version>
+        <httpclient5.version>5.2.1</httpclient5.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -151,7 +154,17 @@
                 <artifactId>javacv-platform</artifactId>
                 <version>${javacv.version}</version>
             </dependency>
-
+            <dependency>
+                <groupId>com.github.penggle</groupId>
+                <artifactId>kaptcha</artifactId>
+                <version>${kaptcha.version}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents.client5/httpclient5 -->
+            <dependency>
+                <groupId>org.apache.httpcomponents.client5</groupId>
+                <artifactId>httpclient5</artifactId>
+                <version>${httpclient5.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>

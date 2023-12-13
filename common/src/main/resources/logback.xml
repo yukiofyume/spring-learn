@@ -76,7 +76,7 @@
 <!--    <logger name="com.lwh" level="DEBUG">-->
 <!--        <appender-ref ref="STDOUT"/>-->
 <!--    </logger>-->
-    <root level="DEBUG">
+    <root level="INFO">
         <appender-ref ref="STDOUT"/>
     </root>
     <!-- 这里的logger根据需要自己灵活配置 ，我这里只是给出一个demo-->
