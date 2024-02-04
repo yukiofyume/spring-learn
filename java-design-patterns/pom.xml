@@ -12,11 +12,6 @@
     <groupId>com.lwh.learn.pattern.design</groupId>
     <artifactId>java-design-patterns</artifactId>
 
-    <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
