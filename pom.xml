@@ -23,6 +23,7 @@
         <module>spring-security-demo</module>
         <module>apache-httpclient5</module>
         <module>spring-test</module>
+        <module>thread-pool</module>
     </modules>
 
     <properties>
